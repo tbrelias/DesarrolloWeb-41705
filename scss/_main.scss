@@ -1,0 +1,29 @@
+.menu-inicial {
+    margin-top: 100px;
+    padding: 70px;
+        h4 {
+            color: $titulos;
+        }
+        p {
+            @include letra
+        }
+}
+
+.menu-contacto {
+    .fs-3{
+        color: $titulos;
+    }
+    p {
+        @include letra
+    }
+}
+
+.menu-nosotros {
+    .h1 {
+        color: $titulos;
+    }
+    p {
+        @include letra
+        padding: 30px;
+    }
+}

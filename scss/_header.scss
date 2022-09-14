@@ -1,0 +1,14 @@
+nav {
+    background-color: $detalles;
+    .nav-link {
+        color: map-get($colores , $key:cp-white);
+        font-family: $text-titulo;
+        padding: 15px !important; 
+        font-size: 13px;
+        &:hover {
+            color: map-get($colores , $key:cp-white);
+            border-bottom: 1px solid;
+              }
+              
+    }
+}
