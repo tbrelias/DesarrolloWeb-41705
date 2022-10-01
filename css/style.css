@@ -11,32 +11,68 @@ nav {
     padding: 15px !important;
     font-size: 13px; }
     nav .nav-link:hover {
-      color: white;
+      color: #7E8080;
       border-bottom: 1px solid; }
 
 .menu-inicial {
   margin-top: 100px;
-  padding: 70px; }
-  .menu-inicial h4 {
-    color: #11222a; }
-  .menu-inicial p {
-    font-family: "Lora", serif;
-    color: #7E8080; }
+  padding: 70px;
+  font-family: "Lora", serif;
+  color: #7E8080; }
+  .menu-inicial .tarjetas {
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease; }
+    .menu-inicial .tarjetas:hover {
+      box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+      transform: translateY(-3%); }
+    .menu-inicial .tarjetas h4 {
+      color: #133035; }
+    .menu-inicial .tarjetas .fs-3 {
+      color: #133035; }
+
+.menu-nosotros .h1 {
+  color: #133035; }
+
+.menu-nosotros p {
+  font-family: "Lora", serif;
+  color: #7E8080; }
+
+.menu-servicios {
+  margin-top: 100px;
+  font-family: "Lora", serif;
+  color: #7E8080; }
+  .menu-servicios .card-title {
+    color: #133035; }
+
+.menu-profesionales {
+  font-family: "Lora", serif;
+  color: #7E8080; }
+  .menu-profesionales .tarjetas {
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease; }
+    .menu-profesionales .tarjetas:hover {
+      box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+      transform: translateY(-3%); }
+    .menu-profesionales .tarjetas .h4 {
+      color: #133035; }
+    .menu-profesionales .tarjetas .h6 {
+      color: #184E50; }
 
 .menu-contacto .fs-3 {
-  color: #11222a; }
+  color: #133035; }
 
 .menu-contacto p {
   font-family: "Lora", serif;
   color: #7E8080; }
 
-.menu-nosotros .h1 {
-  color: #11222a; }
-
-.menu-nosotros p {
-  font-family: "Lora", serif;
-  color: #7E8080;
-  padding: 30px; }
+.menu-contacto .btn-primary {
+  background-color: #133035;
+  border-color: #133035;
+  transition: all 0.2s ease-out; }
+  .menu-contacto .btn-primary:hover {
+    background-color: #184E50;
+    border-color: #184E50;
+    transform: scale(0.8); }
 
 footer .footer-personal {
   background-color: #4d4d4d;

@@ -1,20 +1,20 @@
 .menu-inicial {
     margin-top: 100px;
     padding: 70px;
+    @include letra
+    .tarjetas{
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+        transition: all 400ms ease;
+        &:hover {
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+            transform: translateY(-3%);
+        }
         h4 {
             color: $titulos;
         }
-        p {
-            @include letra
+        .fs-3 {
+            color: $titulos;
         }
-}
-
-.menu-contacto {
-    .fs-3{
-        color: $titulos;
-    }
-    p {
-        @include letra
     }
 }
 
@@ -24,6 +24,51 @@
     }
     p {
         @include letra
-        padding: 30px;
+    }
+}
+
+.menu-servicios {
+    margin-top: 100px;
+    @include letra
+
+    .card-title{
+        color: $titulos;
+    }
+}
+
+.menu-profesionales {
+    @include letra
+    .tarjetas{
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+        transition: all 400ms ease;
+        &:hover {
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+            transform: translateY(-3%);
+        }
+        .h4 {
+            color: $titulos
+        }
+        .h6 {
+            color: $detalles
+        }
+    }
+}
+
+.menu-contacto {
+    .fs-3{
+        color: $titulos;
+    }
+    p {
+        @include letra
+    }
+    .btn-primary {
+        background-color: $titulos;
+        border-color: $titulos;
+        transition: all 0.2s ease-out;
+        &:hover {
+            background-color: $detalles;
+            border-color: $detalles;
+            transform: scale(0.8);
+        }
     }
 }

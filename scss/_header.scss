@@ -6,9 +6,9 @@ nav {
         padding: 15px !important; 
         font-size: 13px;
         &:hover {
-            color: map-get($colores , $key:cp-white);
+            color: $letras;
+            // color: map-get($colores , $key:cp-gris-claro);
             border-bottom: 1px solid;
-              }
-              
+            }
     }
 }

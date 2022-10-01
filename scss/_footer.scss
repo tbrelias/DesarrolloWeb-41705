@@ -1,6 +1,6 @@
 footer {
     .footer-personal {
-        background-color: map-get($colores , $key:footer-principal );
+        background-color: map-get($colores , $key:cp-gris-oscuro );
         width: 100%;
         height: 120px;
         display: flex;
@@ -24,7 +24,7 @@ footer {
     }
 
     .copyright {
-        background-color: map-get($colores , $key:footer-secundario );
+        background-color: map-get($colores , $key:cp-gris-claro );
         text-align: center;
         padding: 5px;
         margin-bottom: 0%;
