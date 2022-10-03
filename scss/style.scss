@@ -6,3 +6,32 @@
 @import "./header";
 @import "./main";
 @import "./footer";
+
+@media screen and (max-width:992px) {
+
+    footer {
+        .footer-personal {
+            background-color: #1d353a ;
+        }
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+
+    footer {
+        .footer-personal {
+            background-color: $detalles ;
+        }
+    }
+
+}
+
+@media screen and (max-width:480px) {
+
+    footer {
+        .footer-personal {
+            background-color: $titulos ;
+        }
+    }
+}

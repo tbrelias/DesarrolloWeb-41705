@@ -2,6 +2,7 @@
     margin-top: 85px;
     padding: 70px;
     color: map-get($colores , $key:cp-white);
+    background-color: rgb(250, 255, 255);
     @include letra;
     .fs-3{
         color: $titulos;
@@ -20,6 +21,7 @@
 }
 
 .menu-nosotros {
+    background-color: rgb(250, 255, 255);
     .h1 {
         color: $titulos;
     }
@@ -29,6 +31,7 @@
 }
 
 .menu-servicios {
+    background-color: rgb(250, 255, 255);
     margin-top: 100px;
     @include letra
 
@@ -38,6 +41,7 @@
 }
 
 .menu-profesionales {
+    background-color: rgb(250, 255, 255);
     @include letra
     .tarjetas{
         box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
@@ -56,6 +60,7 @@
 }
 
 .menu-contacto {
+    background-color: rgb(250, 255, 255);
     .fs-3{
         color: $titulos;
     }

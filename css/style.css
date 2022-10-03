@@ -18,6 +18,7 @@ nav {
   margin-top: 85px;
   padding: 70px;
   color: white;
+  background-color: #faffff;
   font-family: "Lora", serif;
   color: #7E8080; }
   .menu-inicial .fs-3 {
@@ -31,14 +32,16 @@ nav {
     .menu-inicial .tarjetas h4 {
       color: #133035; }
 
-.menu-nosotros .h1 {
-  color: #133035; }
-
-.menu-nosotros p {
-  font-family: "Lora", serif;
-  color: #7E8080; }
+.menu-nosotros {
+  background-color: #faffff; }
+  .menu-nosotros .h1 {
+    color: #133035; }
+  .menu-nosotros p {
+    font-family: "Lora", serif;
+    color: #7E8080; }
 
 .menu-servicios {
+  background-color: #faffff;
   margin-top: 100px;
   font-family: "Lora", serif;
   color: #7E8080; }
@@ -46,6 +49,7 @@ nav {
     color: #133035; }
 
 .menu-profesionales {
+  background-color: #faffff;
   font-family: "Lora", serif;
   color: #7E8080; }
   .menu-profesionales .tarjetas {
@@ -59,21 +63,21 @@ nav {
     .menu-profesionales .tarjetas .h6 {
       color: #184E50; }
 
-.menu-contacto .fs-3 {
-  color: #133035; }
-
-.menu-contacto p {
-  font-family: "Lora", serif;
-  color: #7E8080; }
-
-.menu-contacto .btn-primary {
-  background-color: #133035;
-  border-color: #133035;
-  transition: all 0.2s ease-out; }
-  .menu-contacto .btn-primary:hover {
-    background-color: #184E50;
-    border-color: #184E50;
-    transform: scale(0.8); }
+.menu-contacto {
+  background-color: #faffff; }
+  .menu-contacto .fs-3 {
+    color: #133035; }
+  .menu-contacto p {
+    font-family: "Lora", serif;
+    color: #7E8080; }
+  .menu-contacto .btn-primary {
+    background-color: #133035;
+    border-color: #133035;
+    transition: all 0.2s ease-out; }
+    .menu-contacto .btn-primary:hover {
+      background-color: #184E50;
+      border-color: #184E50;
+      transform: scale(0.8); }
 
 footer .footer-personal {
   background-color: #4d4d4d;
@@ -121,3 +125,15 @@ footer .copyright {
   padding: 5px;
   margin-bottom: 0%;
   color: white; }
+
+@media screen and (max-width: 992px) {
+  footer .footer-personal {
+    background-color: #1d353a; } }
+
+@media screen and (max-width: 768px) {
+  footer .footer-personal {
+    background-color: #184E50; } }
+
+@media screen and (max-width: 480px) {
+  footer .footer-personal {
+    background-color: #133035; } }
